@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deal Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/detailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$0.00"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/detailQuality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quality: EXCELLENT"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/detailScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 85.5/100"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/detailSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Source: Craigslist"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/detailLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: San Francisco"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/openListingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Listing in Browser"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate this deal:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your feedback helps train the AI to find better deals!"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/thumbsUpButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="👍 Good Deal"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/thumbsDownButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="👎 Bad Deal"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
