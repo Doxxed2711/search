@@ -1,0 +1,21 @@
+{
+  "search_query": "laptop",
+  "location": {
+    "craigslist": "sfbay",
+    "offerup": "",
+    "facebook": ""
+  },
+  "market_price": null,
+  "price_threshold": 0.7,
+  "scan_interval_minutes": 15,
+  "enabled_sources": [
+    "craigslist",
+    "offerup",
+    "facebook"
+  ],
+  "notifications": {
+    "desktop": true,
+    "sound": false
+  },
+  "deal_quality_filter": "good"
+}

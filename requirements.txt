@@ -1,0 +1,19 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Optional: Desktop notifications (platform-specific)
+# Windows
+win10toast>=0.9; sys_platform == 'win32'
+
+# macOS
+pync>=2.0.3; sys_platform == 'darwin'
+
+# Linux
+notify2>=0.3.1; sys_platform == 'linux'
+
+# Optional: For better Facebook scraping (requires Chrome/Chromium)
+# Uncomment if you want to use Selenium for JavaScript-rendered content
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
